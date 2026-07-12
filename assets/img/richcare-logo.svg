@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="230" height="56" viewBox="0 0 230 56" role="img" aria-labelledby="title desc">
+  <title id="title">RichCare Hospital logo</title>
+  <desc id="desc">A green shield and medical cross with a pulse line beside the RichCare wordmark.</desc>
+  <rect width="230" height="56" fill="none"/>
+  <g transform="translate(4 4)">
+    <path d="M24 0 46 8v15c0 14-8.5 23.4-22 25C10.5 46.4 2 37 2 23V8L24 0Z" fill="#0b6d62"/>
+    <path d="M24 7 39 12.4v10.8c0 10-5.5 16.6-15 18-9.5-1.4-15-8-15-18V12.4L24 7Z" fill="#ffffff" opacity=".15"/>
+    <path d="M21 13h6v10h10v6H27v10h-6V29H11v-6h10V13Z" fill="#ffffff"/>
+    <path d="M10 32h7l3.2-6.4 5.4 12.2 4.2-8.8H38" fill="none" stroke="#b88a35" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="63" y="34" fill="#073f3a" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="800">Rich<tspan fill="#162a35">Care</tspan></text>
+  <text x="65" y="48" fill="#65706b" font-family="Inter, Arial, Helvetica, sans-serif" font-size="9" font-weight="700" letter-spacing="2">HOSPITAL</text>
+</svg>
