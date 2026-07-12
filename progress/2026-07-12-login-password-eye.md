@@ -14,6 +14,7 @@
 - Confirmed the old duplicate JavaScript handler was removed.
 - Confirmed the shared password toggle handler now targets the actual eye button.
 - Browser automation timed out during the final click test, so manual browser confirmation is still recommended.
+- Added direct login button toggle handling and bumped the JavaScript cache version to force browsers to load the fixed script.
 
 ## Current Branch
 

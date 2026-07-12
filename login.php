@@ -53,7 +53,7 @@ include __DIR__ . '/includes/header.php';
                         <label>Password</label>
                         <div class="password-toggle-field">
                             <input class="form-control" id="staff-login-password" type="password" name="password" value="richcare">
-                            <button class="btn btn-default password-eye-button" type="button" data-toggle-password="#staff-login-password" aria-label="Show password">
+                            <button class="btn btn-default password-eye-button" type="button" data-toggle-password="#staff-login-password" onclick="return toggleStaffPassword(event, '#staff-login-password')" aria-label="Show password">
                                 <span class="glyphicon glyphicon-eye-open"></span>
                             </button>
                         </div>
