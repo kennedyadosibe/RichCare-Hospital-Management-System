@@ -5,10 +5,12 @@
 - Added the project `README.md`.
 - Added feature documentation for the README.
 - Added this progress note.
+- Updated the README test login section with staff IDs, roles, and password.
 
 ## Tests Run
 
-- Pending Git commit and remote push verification.
+- Confirmed README contains explicit test credentials.
+- Pending Git commit and remote push verification for the credential update.
 
 ## Current Branch
 

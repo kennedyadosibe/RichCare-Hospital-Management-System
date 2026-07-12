@@ -18,9 +18,9 @@ None.
 
 - Confirm `README.md` exists in the project root.
 - Confirm the README explains local XAMPP setup.
-- Confirm the README includes demo staff accounts and testing notes.
+- Confirm the README includes test staff IDs, roles, and password.
 - Commit the README changes to the `dev` branch.
 
 ## Status
 
-Completed.
+Updated with clearer test login details.

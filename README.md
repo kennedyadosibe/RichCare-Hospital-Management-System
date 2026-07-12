@@ -78,24 +78,31 @@ http://localhost/RichcarexHospital/index.php
 http://localhost/RichcarexHospital/login.php
 ```
 
-## Demo Staff Accounts
+## Test Login Details
 
-Default password for seeded staff accounts:
+Staff login page:
+
+```text
+http://localhost/RichcarexHospital/login.php
+```
+
+Test password for all seeded staff accounts:
 
 ```text
 richcare
 ```
 
-Available accounts:
+Test accounts:
 
 ```text
-RC-STAFF-001  Administrator
-RC-DOC-002    Doctor
-RC-NUR-003    Nurse
-RC-BIL-004    Billing
-RC-REC-005    Receptionist
-RC-LAB-006    Laboratory
-RC-PHA-007    Pharmacy
+Staff ID       Role           Password
+RC-STAFF-001   Administrator  richcare
+RC-DOC-002     Doctor         richcare
+RC-NUR-003     Nurse          richcare
+RC-BIL-004     Billing        richcare
+RC-REC-005     Receptionist   richcare
+RC-LAB-006     Laboratory     richcare
+RC-PHA-007     Pharmacy       richcare
 ```
 
 ## Git Workflow
