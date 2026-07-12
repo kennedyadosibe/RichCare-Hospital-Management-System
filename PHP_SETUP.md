@@ -18,7 +18,7 @@ Use XAMPP, WAMP, Laragon, or another local PHP/MySQL environment.
 Place this folder inside your local server web root, for example:
 
 ```text
-C:\xampp\htdocs\Richcarex Hospital
+C:\xampp\htdocs\RichcarexHospital
 ```
 
 ## 3. Create the database
@@ -51,7 +51,7 @@ $password = '';
 Visit:
 
 ```text
-http://localhost/Richcarex%20Hospital/index.php
+http://localhost/RichcarexHospital/index.php
 ```
 
 Public pages:
@@ -61,4 +61,11 @@ Public pages:
 
 Staff dashboard:
 
-- `staff.php`
+- `login.php`
+
+Default seeded dashboard login after importing `database/schema.sql`:
+
+```text
+Staff ID: RC-STAFF-001
+Password: richcare
+```
