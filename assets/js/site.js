@@ -38,26 +38,6 @@ $(function () {
         }
     });
 
-    $(document).on('click', '[data-toggle-password]', function () {
-        var button = $(this);
-        var input = $(button.data('toggle-password'));
-        var icon = button.find('.glyphicon');
-
-        if (!input.length) {
-            return;
-        }
-
-        if (input.attr('type') === 'password') {
-            input.attr('type', 'text');
-            button.attr('aria-label', 'Hide password');
-            icon.removeClass('glyphicon-eye-open').addClass('glyphicon-eye-close');
-        } else {
-            input.attr('type', 'password');
-            button.attr('aria-label', 'Show password');
-            icon.removeClass('glyphicon-eye-close').addClass('glyphicon-eye-open');
-        }
-    });
-
     if (path.indexOf('index.php') !== -1 || path.slice(-1) === '/') {
         $(window).on('scroll', updateActiveFromScroll);
         updateActiveFromScroll();

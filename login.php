@@ -51,7 +51,12 @@ include __DIR__ . '/includes/header.php';
                     </div>
                     <div class="form-group">
                         <label>Password</label>
-                        <input class="form-control" type="password" name="password" value="richcare">
+                        <div class="password-toggle-field">
+                            <input class="form-control" id="staff-login-password" type="password" name="password" value="richcare">
+                            <button class="btn btn-default password-eye-button" type="button" data-toggle-password="#staff-login-password" aria-label="Show password">
+                                <span class="glyphicon glyphicon-eye-open"></span>
+                            </button>
+                        </div>
                     </div>
                     <button class="btn btn-primary btn-lg btn-block" type="submit">Enter dashboard</button>
                     <div class="login-helper-link">

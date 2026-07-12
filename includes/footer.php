@@ -31,14 +31,10 @@ function toggleStaffPassword(event, selector) {
         event.stopPropagation();
     }
 
-    var button = event ? event.currentTarget : null;
+    var button = event && event.target ? event.target.closest('[data-toggle-password]') : null;
     var input = document.querySelector(selector);
     if (!input) {
         return false;
-    }
-
-    if (!button && event && event.target) {
-        button = event.target.closest('[data-toggle-password]');
     }
 
     var icon = button ? button.querySelector('.glyphicon') : null;
