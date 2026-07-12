@@ -78,21 +78,23 @@ http://localhost/RichcarexHospital/index.php
 http://localhost/RichcarexHospital/login.php
 ```
 
-## Test Login Details
+## Dashboard Login After Cloning
 
-Staff login page:
+After cloning the project and importing `database/schema.sql`, use the seeded staff accounts below to enter the staff dashboard.
+
+Dashboard login page:
 
 ```text
 http://localhost/RichcarexHospital/login.php
 ```
 
-Test password for all seeded staff accounts:
+The default dashboard password for every seeded staff account is:
 
 ```text
 richcare
 ```
 
-Test accounts:
+Dashboard login credentials:
 
 ```text
 Staff ID       Role           Password

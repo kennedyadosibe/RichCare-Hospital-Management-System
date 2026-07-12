@@ -18,9 +18,9 @@ None.
 
 - Confirm `README.md` exists in the project root.
 - Confirm the README explains local XAMPP setup.
-- Confirm the README includes test staff IDs, roles, and password.
+- Confirm the README clearly explains which Staff ID and password to use to enter the dashboard after cloning and importing the database.
 - Commit the README changes to the `dev` branch.
 
 ## Status
 
-Updated with clearer test login details.
+Updated with clearer dashboard login details for cloned setups.

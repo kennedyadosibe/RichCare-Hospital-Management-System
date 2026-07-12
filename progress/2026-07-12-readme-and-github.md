@@ -6,10 +6,12 @@
 - Added feature documentation for the README.
 - Added this progress note.
 - Updated the README test login section with staff IDs, roles, and password.
+- Clarified that the listed credentials are used to enter the dashboard after cloning and importing the database.
 
 ## Tests Run
 
 - Confirmed README contains explicit test credentials.
+- Confirmed README explains dashboard login credentials for cloned setups.
 - Pending Git commit and remote push verification for the credential update.
 
 ## Current Branch
