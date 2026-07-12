@@ -4,6 +4,12 @@ RichCare is a web-based hospital management system built for managing public boo
 
 The project uses HTML, CSS, JavaScript, PHP, MySQL, and Bootstrap 3.3.7. It is designed to run locally through XAMPP.
 
+## Why RichCare Is Needed Today
+
+Healthcare delivery now depends on fast access to accurate patient information, coordinated staff workflows, and reliable digital records. Manual record keeping and fragmented systems can lead to long waiting times, misplaced files, repeated data entry, delayed billing, and poor communication between departments.
+
+RichCare helps solve these problems by bringing appointment booking, patient records, medical notes, prescriptions, lab results, billing, staff accounts, reports, and notifications into one web-based system. This makes hospital work easier to track, improves accountability, and supports quicker service delivery for patients.
+
 ## Main Features
 
 - Public hospital website with Home, About, Services, Contact, and Booking pages
@@ -88,6 +94,13 @@ Dashboard login page:
 http://localhost/RichcarexHospital/login.php
 ```
 
+Quick administrator login:
+
+```text
+Staff ID: RC-STAFF-001
+Password: richcare
+```
+
 The default dashboard password for every seeded staff account is:
 
 ```text
@@ -97,7 +110,15 @@ richcare
 Dashboard login credentials:
 
 ```text
-Staff ID       Role           Password
+Login Field    Value
+Staff ID       RC-STAFF-001
+Password       richcare
+```
+
+All seeded dashboard accounts:
+
+```text
+Staff ID       Role           Dashboard Password
 RC-STAFF-001   Administrator  richcare
 RC-DOC-002     Doctor         richcare
 RC-NUR-003     Nurse          richcare

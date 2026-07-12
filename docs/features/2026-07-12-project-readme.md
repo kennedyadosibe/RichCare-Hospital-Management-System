@@ -19,8 +19,9 @@ None.
 - Confirm `README.md` exists in the project root.
 - Confirm the README explains local XAMPP setup.
 - Confirm the README clearly explains which Staff ID and password to use to enter the dashboard after cloning and importing the database.
+- Confirm the README includes a brief explanation of why RichCare is needed in this era.
 - Commit the README changes to the `dev` branch.
 
 ## Status
 
-Updated with clearer dashboard login details for cloned setups.
+Updated with clearer dashboard login details and a short project relevance section.

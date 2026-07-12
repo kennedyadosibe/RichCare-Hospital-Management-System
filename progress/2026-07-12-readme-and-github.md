@@ -7,11 +7,14 @@
 - Added this progress note.
 - Updated the README test login section with staff IDs, roles, and password.
 - Clarified that the listed credentials are used to enter the dashboard after cloning and importing the database.
+- Added a short explanation of why RichCare is needed in modern healthcare.
+- Added a quick administrator login block with Staff ID and Password fields.
 
 ## Tests Run
 
 - Confirmed README contains explicit test credentials.
 - Confirmed README explains dashboard login credentials for cloned setups.
+- Confirmed README includes a brief project relevance section.
 - Pending Git commit and remote push verification for the credential update.
 
 ## Current Branch
